@@ -16,11 +16,10 @@ import java.util.Date;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class TestUserLogService {
-    @Autowired
-    private UserLogService userLogService;
+
 
     @Test
     public void TestSaveUserLog() {
-        userLogService.saveUserLog("楚广明","192.168.1.110");
+
     }
 }
